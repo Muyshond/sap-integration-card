@@ -1,0 +1,11 @@
+.blueBox {
+    border: 2px solid blue !important;;  
+    padding: 10px;            
+    background-color: lightblue !important;; 
+    margin: 5px !important;;              
+    text-align: center !important;;       
+  }
+.test {
+  font-weight: bold;
+}
+

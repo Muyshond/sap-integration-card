@@ -1,0 +1,63 @@
+<mvc:View xmlns:core="sap.ui.core"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+ 	controllerName="my.component.sample.cardContentControls.Main">
+	
+<VBox >
+
+    <HBox justifyContent="SpaceAround" >
+      <VBox justifyContent="Center" alignContent="Center" alignItems="Center" class="blueBox">
+			<core:Icon src="sap-icon://pull-down"></core:Icon>
+			<Text text="Goederen ontvangst" class="test" />
+      </VBox>
+
+      <VBox justifyContent="Center" alignItems="Center" class="blueBox"> 
+	  		<core:Icon src="sap-icon://inventory"></core:Icon>
+	  	  	<Text text="Intern verplaatst" />
+      </VBox>
+    </HBox>
+
+    <HBox justifyContent="SpaceAround"  class="blueBox" alignContent="Center">
+      <VBox justifyContent="Center" alignItems="Center" class="blueBox" >
+	  	<FlexBox > 
+			<Text text="{/numbers/0}" />
+			<core:Icon src="sap-icon://download"></core:Icon>
+			<Text text="{/numbers/2}" />
+		</FlexBox>
+	    <Text text="Wegzet" />
+      </VBox>
+
+      <VBox justifyContent="Center" alignItems="Center" class="blueBox">
+	  	<FlexBox > 
+			<Text text="{/numbers/0} " />
+			<core:Icon src="sap-icon://upload"></core:Icon>
+			<Text text="{/numbers/0}" />
+		</FlexBox>
+	    <Text text="Picking" />
+      </VBox>
+    </HBox>
+
+	<HBox justifyContent="SpaceAround" alignContent="Center" alignItems="Center">
+    	<VBox justifyContent="Center" alignItems="Center" class="blueBox">
+		<FlexBox > 
+			<core:Icon src="sap-icon://clinical-task-tracker"></core:Icon>
+			<Text text="{/numbers/0}" />
+		</FlexBox>
+	  	  	<Text text="inventaris" />
+      	</VBox>
+
+		<VBox justifyContent="Center" alignItems="Center" class="blueBox">
+					<core:Icon src="sap-icon://clinical-task-tracker"></core:Icon>
+
+			<Text text="spot inventaris" />
+		</VBox>
+    </HBox>
+
+</VBox>
+
+
+</mvc:View>
+
+
+	

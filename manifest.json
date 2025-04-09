@@ -53,13 +53,15 @@
 			}
 		}
 	},
+	
+	
 	"sap.card": {
 		"type": "Component",
 		"header": {
 			"icon": {
 				"src": ""
 			},
-			"title": "this is a test",
+			"title": "{fact}",
 			"subTitle": "You will see numbers"
 		},
 		"footer": {

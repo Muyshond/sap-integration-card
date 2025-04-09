@@ -21,7 +21,7 @@
     <HBox justifyContent="SpaceAround"  class="blueBox" alignContent="Center">
       <VBox justifyContent="Center" alignItems="Center" class="blueBox" >
 	  	<FlexBox > 
-			<Text text="{/numbers/0}" />
+			<Text text="{cat>/length}" />
 			<core:Icon src="sap-icon://download"></core:Icon>
 			<Text text="{/numbers/2}" />
 		</FlexBox>
